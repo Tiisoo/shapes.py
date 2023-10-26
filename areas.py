@@ -31,5 +31,6 @@ shapes =[rectangle,triangle,circle]
 for shape in shapes:
   area =shape.calculate_area()
   print(f"name:{shape.name}\n area:{area:.2f}")
+  
 
 
